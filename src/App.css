@@ -1,0 +1,107 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+body{
+  background-color: white;
+  
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0;
+}
+
+.header{
+  background-color: #94caf6;
+  
+  border-bottom: solid red 5px;
+  border-top: solid rgb(69, 102, 135) 10px ;
+}
+.result{
+  color: red;
+  
+  text-align: center;
+  
+}
+.heading{
+  color: rgb(6, 45, 70);
+  
+  text-align: center;
+}
+.portal{
+
+text-align: right ;
+margin: 10px;
+padding-bottom: 10px;
+}
+.tablerow{
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap !important ;
+  gap: 30px ;
+}
+.sub{
+font: 200;
+}
+.resultType{
+color: rgb(86, 9, 9);
+margin: 0px;
+
+}
+.container{
+text-align: center;
+margin-top: 50px;
+}
+.imgLogo{
+height: 80px;
+border-radius: 50%;
+text-align: left;
+}
+
+/* result page */
+.table{
+  margin: 0px;
+  padding: 0;
+width: 100%;
+  border-collapse: collapse;
+background-color: #f9f6f6;
+}
+td{
+margin: 10px;
+
+}
+.view{
+text-align: center;
+padding: 40px;
+align-items: center;
+border: solid rgb(16, 12, 12) 2px;
+justify-content: center;
+background-color: #9f9898;
+font-weight: 20%;
+}
+.captcha {
+  margin: 50px;
+
+  justify-content: center;
+text-align: center;
+font-family: 'Roboto Mono', monospace;  /* Custom font from Google Fonts */
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: black;  /* Tomato red color */
+background-color: #f9f9f9;
+padding: 15px;
+border: 2px solid #ddd;
+display: inline-block;
+}
+.captcha-box{
+  text-align: center;
+ 
+}
+.outimg{
+  width: 45%;
+}
