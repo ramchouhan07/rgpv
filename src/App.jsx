@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom"
 import Result from "../pages/RESULTPAGE"
 import Header from "../pages/Header"
 import Out from "../pages/out"
+
 function App() {
 
   return (
